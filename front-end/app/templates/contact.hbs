@@ -1,14 +1,8 @@
 
 
-
-<h1>{{firstName}} {{lastName}}</h1>
-<dl>
-  <dt>Email</dt>
-  <dd>{{email}}</dd>
-
-  <dt>Title</dt>
-  <dd>{{title}}</dd>
-</dl>
+<h1>{{model.lastName}}, {{model.firstName}}</h1>
+<p>Email: {{model.email}}</p>
+<p>Title: {{model.title}}</p>
 
 <p>
   Updated at: {{formatted-date updatedAt 'MMMM Do, YYYY [at] h:mm a'}}

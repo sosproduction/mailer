@@ -28,7 +28,7 @@ Vagrant.configure(2) do |config|
 
   # We have to make some changes to get Ember to work with Vagrant
   config.vm.network "forwarded_port", guest: 4200, host: 4200
-  config.vm.network "forwarded_port", guest: 35729, host: 35729  
+  config.vm.network "forwarded_port", guest: 49152, host: 49152  
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
