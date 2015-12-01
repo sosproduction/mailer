@@ -1,5 +1,3 @@
-
-
 module API
   module V1
     class Contacts < Grape::API
@@ -22,4 +20,3 @@ module API
     end
   end
 end
-
